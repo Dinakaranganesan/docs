@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/khatabook_new">
+<Realm className="org.apache.catalina.realm.DataSourceRealm"
+dataSourceName="jdbc/myDB" localDataSource="true"
+userTable="khatabook_users" userNameCol="user_name" userCredCol="password"
+userRoleTable="khatabook_user_roles" roleNameCol="roles"/>
+
+<Resource name="jdbc/myDB" auth="Container"
+type="javax.sql.DataSource" driverClassName="com.mysql.cj.jdbc.Driver"
+url="jdbc:mysql://bassure.in:3306/dina_b8_db"
+username="dina_07" password="dinaBA81" maxTotal="2" maxIdle="1"
+maxWaitMillis="-1"/>
+</Context>
+

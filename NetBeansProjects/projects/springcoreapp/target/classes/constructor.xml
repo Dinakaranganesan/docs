@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="a" class="com.mycompany.springcoreapp.Mobile" scope="prototype">
+        <constructor-arg name="brand" value="Oneplus"/>
+        <constructor-arg name="color" value="Blue"/>
+        <constructor-arg name="model" value="NordCE2"/>
+        <constructor-arg name="specs" value="12gbRAM"/>
+        <constructor-arg name="price" value="15000.003"/>
+        <constructor-arg name="motherboard" ref="motherclass"/>
+        
+    </bean>
+    <bean id="motherclass" class="com.mycompany.springcoreapp.MotherBoard" p:model="a450" p:cpu="AM4">
+
+    </bean>
+    <bean id="b" class="com.mycompany.springcoreapp.Mobile" scope="prototype">
+        <constructor-arg type="String" value="Oneplus"/>
+        <constructor-arg type="String" value="Red"/>
+        <constructor-arg type="String" value="NordCE2"/>
+        <constructor-arg  type="String" value="12gbRAM"/>
+        <constructor-arg  type="double" value="16000.00"/>
+
+        <constructor-arg type="MotherBoard" ref="motherref"/>
+    </bean>
+    <bean id="motherref" class="com.mycompany.springcoreapp.MotherBoard" p:model="a450" p:cpu="AM4">
+
+    </bean>
+    <bean id="c" class="com.mycompany.springcoreapp.Mobile" scope="prototype">
+        <constructor-arg index="0" value="IQOO"/>
+        <constructor-arg index="1" value="Artic White"/>
+        <constructor-arg index="2"  value="Z5"/>
+        <constructor-arg  index="3"  value="8gbRAM"/>
+        <constructor-arg  index="4" value="20000.00"/>
+        <constructor-arg index="5"  ref="motherref1"/>
+    </bean>
+    <bean id="motherref1" class="com.mycompany.springcoreapp.MotherBoard" p:model="C4566" p:cpu="AM4">
+    </bean>
+</beans>

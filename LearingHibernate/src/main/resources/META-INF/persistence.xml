@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence              http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="hibernate-jpa" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    <class>sakila.Film</class>
+    <class>sakila.Rental</class>
+    <class>sakila.Category</class>
+    <class>sakila.CustomerList</class>
+    <class>sakila.NicerButSlowerFilmList</class>
+    <class>sakila.ActorInfo</class>
+    <class>sakila.Staff</class>
+    <class>sakila.StaffList</class>
+    <class>sakila.Language</class>
+    <class>sakila.Customer</class>
+    <class>sakila.Store</class>
+    <class>sakila.FilmList</class>
+    <class>sakila.Inventory</class>
+    <class>sakila.SalesByStore</class>
+    <class>sakila.Payment</class>
+    <class>sakila.City</class>
+    <class>sakila.Country</class>
+    <class>sakila.Address</class>
+    <class>sakila.FilmText</class>
+    <class>sakila.FilmActor</class>
+    <class>sakila.Actor</class>
+    <class>sakila.CityFullInfo</class>
+    <class>sakila.FilmCategory</class>
+    <class>sakila.SalesByFilmCategory</class>
+    <class>model.Contact1</class>
+    <class>model.Member1</class>
+    <class>model.Member</class>
+     <class>model.Contact</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties>
+      <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://bassure.in/dina_b8_db"/>
+      <property name="jakarta.persistence.jdbc.user" value="dina_07"/>
+      <property name="jakarta.persistence.jdbc.password" value="dinaBA81"/>
+      <!--            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.hbm2ddl.auto" value="create" />-->
+      <property name="hibernate.connection.pool_size" value="2"/>
+    </properties>
+  </persistence-unit>
+</persistence>

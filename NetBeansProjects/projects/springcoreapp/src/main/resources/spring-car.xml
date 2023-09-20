@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="a" class="com.mycompany.springcoreapp.Mobile">
+        <property name="brand" value="Xiaomi"/>
+        <property name="color" value="Artic Blue"/>
+        <property name="model" value="RedmiNote11pro"/>
+        <property name="specs" value="8gbRAM"/>
+        <property name="motherboard" ref="motherclass"/>
+    </bean>
+    <bean id="motherclass" class="com.mycompany.springcoreapp.MotherBoard">
+         <property name="model" value="B450M GAMING"/>
+        <property name="cpu" value="AM4"/>
+    </bean>
+</beans>

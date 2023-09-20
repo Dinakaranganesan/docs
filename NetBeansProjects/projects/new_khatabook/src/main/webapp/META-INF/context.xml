@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/maven-servlet">
+  <Realm className="org.apache.catalina.realm.DataSourceRealm" dataSourceName="jdbc/myDB" localDataSource="true" roleNameCol="roles" userCredCol="user_pwd" userNameCol="user_name" userRoleTable="users_roles_data" userTable="users_data"/>
+  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxIdle="1" maxTotal="2" maxWaitMillis="-1" name="jdbc/myDB" password="dinaBA81" type="javax.sql.DataSource" url="jdbc:mysql://bassure.in:3306/dina_b8_db" username="dina_07"/>
+</Context>

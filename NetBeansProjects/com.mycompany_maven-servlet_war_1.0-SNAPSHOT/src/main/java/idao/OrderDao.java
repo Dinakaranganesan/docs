@@ -1,0 +1,23 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
+ */
+package idao;
+
+import java.sql.Connection;
+import java.util.ArrayList;
+import model.AddCart;
+import model.LineItemss;
+import model.Orderrs;
+
+/**
+ *
+ * @author bas200181
+ */
+public interface OrderDao {
+  public boolean addOrder(Orderrs o,LineItemss []l);
+  public void show();
+   public boolean addCartItems(AddCart o, LineItemss l[]);
+   public ArrayList addCart(int orderId);
+  
+}

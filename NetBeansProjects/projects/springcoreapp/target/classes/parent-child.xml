@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="parent" class=" com.mycompany.springcoreapp.Parent">
+        <property name="parentName" value="ganapthy"/>
+        <property name="parentAge" value="50"/>
+    </bean>
+    <bean id="child" class=" com.mycompany.springcoreapp.Child " parent="parent"/>
+<!--         <property name="parentName" value="kannan"/>
+        <property name="parentAge" value="75"/>-->
+</beans>

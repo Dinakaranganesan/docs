@@ -1,0 +1,15 @@
+## YAML Template.
+---
+server:
+  port: 8089
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://bassure.in:3306/dina_b8_db
+    username: dina_07
+    password: dinaBA81
+    hikari:
+      maximum-pool-size: 2
+  jpa:
+    hibernate:
+      ddl-auto: update                

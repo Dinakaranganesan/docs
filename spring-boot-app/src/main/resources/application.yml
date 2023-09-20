@@ -1,0 +1,18 @@
+## YAML Template.
+---
+server:
+  port: 9080
+  
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://bassure.in:3306/dina_b8_db
+    username: dina_07
+    password: dinaBA81
+    hikari:
+      maximum-pool-size: 2
+                  

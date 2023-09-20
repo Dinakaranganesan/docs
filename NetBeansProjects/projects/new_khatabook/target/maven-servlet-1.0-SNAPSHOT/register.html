@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form name="Registration" action="register" method="POST">
+            <table border="1">
+
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" name="customer_name" value="" /></td>
+
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td><input type="text" name="address" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile Number</td>
+                        <td>
+                            
+                            <select name="mob_no">
+                                <option>+91</option>
+                                <option>+44</option>
+                            </select>
+                            <input type=number name="phonenumber" value="" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Country</td>
+                        <td> <select name="country">
+                                <option>India</option>
+                                <option>Indonesia</option>
+                                <option>Italy</option>
+                                <option>Europe</option>
+                                <option>Asia</option>
+                                <option>Russia</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td><label>male</label><input type="radio" name="Gender" value="male"/>
+                        <label>female</label><input type="radio" name="Gender" value="female"/>
+                        <label>Transgender</label><input type="radio" name="Gender" value="female"/></td>
+                    </tr>
+               
+                   <tr>
+                        <td>BodyStructure</td>
+                        <td><label>oval</label><input type="radio" name="Gender" value="male"/>
+                        <label>circle</label><input type="radio" name="Gender" value="female"/>
+                        <label>overlarge</label><input type="radio" name="Gender" value="female"/></td>
+                    </tr>
+               
+                </tbody>
+            </table>
+             <input type="submit">
+        </form>
+    </body>
+</html>

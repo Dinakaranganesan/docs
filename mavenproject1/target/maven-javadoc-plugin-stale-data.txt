@@ -1,0 +1,46 @@
+@options
+@packages
+-classpath
+'/home/bas200181/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/bas200181/NetBeansProjects/mavenproject1/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'mavenproject1 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/7/docs/api' '/home/bas200181/NetBeansProjects/mavenproject1/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'mavenproject1 1.0-SNAPSHOT API'
+com.mycompany.mavenproject1
+/home/bas200181/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar = 1675405676722
+/home/bas200181/NetBeansProjects/mavenproject1/src/main/java = 1678165269387
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/element-list = 1678165970132
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/tag-search-index.js = 1678165970416
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/script.js = 1678165970480
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/allclasses-index.html = 1678165970396
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/search.js = 1678165970488
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/index.html = 1678165970456
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/module-search-index.js = 1678165970408
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/serialized-form.html = 1678165970284
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/jquery-ui.overrides.css = 1678165970504
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/member-search-index.js = 1678165970412
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/stylesheet.css = 1678165970480
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/help-doc.html = 1678165970472
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/package-search-index.js = 1678165970412
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/overview-tree.html = 1678165970356
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/index-all.html = 1678165970448
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/allpackages-index.html = 1678165970408
+/home/bas200181/NetBeansProjects/mavenproject1/target/apidocs/type-search-index.js = 1678165970412
